@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AdTech Challenge</title>
+<style>
+    body > div {
+        border: 1px solid red;
+        display: inline-block;
+        float: left;
+        clear: both;
+        margin-top: 30px;
+        color: black;
+        position: relative;
+        min-width: 100px;
+    }
+    body > div::before {
+        position: absolute;
+        top: -20px;
+        left: 0;
+        background: #cccccc;
+        border: 1px solid red;
+        border-bottom: 1px solid white;
+    }
+    #SetPageFooter {
+        margin-top: 1000px;
+        min-height: 90px;
+    }
+    #SetRectangleHeader::before {
+        content: 'SetRectangleHeader';
+    }
+    #SetPageFooter::before {
+        content: 'SetPageFooter';
+    }
+</style>
+<script src="/bundle.js"></script>
+</head>
+<body>
+    <h1>Test Ads</h1>
+    <div id='SetRectangleHeader'></div>
+    <div id='SetPageFooter'></div>
+</body>
+</html>
