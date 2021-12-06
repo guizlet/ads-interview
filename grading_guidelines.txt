@@ -46,9 +46,3 @@ Anything 15 or above should lead to an interview
 0: little research
 1: did some reading
 2: extensive reading
-
-- Bonus (3pts) * DOES NOT COUNT IN MAX PTS *
-0: Shuaib was not impressed with work
-1: Shuaib was slightly impressed with work
-2: Shuaib was impressed with work
-3: Shuaib was very impressed with work
