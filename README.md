@@ -17,7 +17,7 @@ Please do not spend more than 2 hours on this challenge. Feel free to leave comm
 
 ### Tips
 * Instructions are vague on purpose. We are curious to see how you will interpret them and would like to leave implementation details up to you
-* A README.md or proper code documentation which allows us to easily understand your code makes our life much easier
+* A README.md or proper code documentation which allows us to easily understand your code is always appreciated.
 
 ### Resources
 [GPT Documentation](https://developers.google.com/doubleclick-gpt/)  
@@ -66,4 +66,4 @@ googletag.pubads().refresh(); //forces an ad load/refresh
 
 ### Submission
 
-Please zip up your code and reply to email from which you received assignment.
+Please zip up your code and send to the Ads engineering manager.
