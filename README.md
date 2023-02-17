@@ -67,6 +67,9 @@ When requesting bids from amazon, this is the config you're expected to use
 ```
 
 To validate that your code works,
+- [ ] On page (localhost:8080), activate aps debug mode by running `apstag.debug('enable');` in console
+- [ ] Refresh your page
+- [ ] Validate that you see orange creatives as shown in [this screenshot](/images/visual-validation.png). It's okay if this doesn't happen 100% of times as long as the next steps happen 100% of times.
 - [ ] Open network tab in dev tools and filter for google ads requests (use `ads?`)
 - [ ] Refresh your page
 - [ ] Inspect the payload sent to google and ensure that amazon key values are set in the request as shown in [this screenshot](/images/validation.png)  
