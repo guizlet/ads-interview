@@ -7,7 +7,8 @@ You will be implementing a simple header bidding client in JavaScript which cont
 [A9 Display Deep Example](/images/a9_display_deep_example.png)  
 [A9 Integration Verification](/images/a9_integration_verification.png)  
 [A9 API Reference](/images/a9_api_reference.png)  
-Validation files in images
+[Validation code](/images/validation.png)
+[Validation visual](/images/visual-validation.png)
 
 ## Setup
 
