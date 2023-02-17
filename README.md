@@ -40,19 +40,19 @@ npm run dev
 You can access app at localhost:8080
 ## Tips
 
-To get started
+Get started by running dev move and visit localhost:8080
 ```bash
 cd app; npm install; npm run dev
 ```
 
-To run in console
+Use the following for debugging
 ```javascript
 googletag.openConsole(); //to debug gpt
 apstag.debug('enable'); //activates aps debug mode and always returns test creative
 googletag.pubads().refresh(); //forces an ad load/refresh
 ```
 
-Expected amazon config
+When requesting bids from amazon, this is the config you're expected to use
 ```json
 [{
   slotID: 'SetRectangleHeader',
@@ -65,6 +65,12 @@ Expected amazon config
   sizes: [[728, 90]],
 }]
 ```
+
+To validate that your code works,
+- [ ] Open network tab in dev tools and filter for google ads requests (use `ads?`)
+- [ ] Refresh your page
+- [ ] Inspect the payload sent to google and ensure that amazon key values are set in the request as shown in [this screenshot](/images/validation.png)  
+
 
 To test that it works, enable apstag debug mode and confirm that you are seeing a test orange creative.
 
